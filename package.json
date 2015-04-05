@@ -1,6 +1,6 @@
 {
   "name": "joi-browserify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shim to use Joi in the browser with Browserify",
   "browser": "joi-browserify.min.js",
   "scripts": {
