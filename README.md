@@ -2,12 +2,12 @@
 
 Shim to use [Joi](https://github.com/hapijs/joi) in the browser with Browserify (**proof of concept**).
 
-The latest version of Joi is used for the build right after installation.
+Version **6.1.0** of Joi is used for the build right after installation.
 If you want to trigger the build yourself again later, call `npm run build`,
 for Joi's unit tests, run `npm run test`.
 
 **Note:** Validation for binary types doesn't work in the browser, so it's
-removed from the package.
+removed from the package. As the 'isemail' package is also shimmed to reduce the overall file size, Joi's unit tests targeting special options for this package have been disabled as well.
 
 
 ### Usage
