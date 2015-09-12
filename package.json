@@ -20,12 +20,12 @@
   "license": "MIT",
   "dependencies": {
     "aliasify": "^1.4.0",
-    "browserify": "^5.9.1",
+    "browserify": "^11.1.0",
     "joi": "6.1.0",
     "minifyify": "^4.0.3"
   },
   "devDependencies": {
     "code": "1.x.x",
-    "lab": "5.x.x"
+    "lab": "^5.16.1"
   }
 }
